@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(213, 213, 213) ;
+}
+
+h1 {
+    text-align: center;
+    text-transform:uppercase;
+}
+
+h2 {
+    background-color:rgb(132, 130, 130) ;
+    color:rgb(224, 16, 16) ;
+}
+
+h3 {
+    background-color:rgb(199, 196, 196) ;
+    color:rgb(167, 52, 52) ;
+}
+
+p {
+    background-color:rgb(172, 172, 172) ;
+    line-height: 1.5em;
+}
+
+.subraya strong {
+    color:rgb(20, 20, 208);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.verde > strong {
+    color: green;
+}
+
+.rojo > em {
+    color: rgb(202, 93, 93);
+}
+
+hr {
+    height: 0.1em;
+    background-color:rgb(224, 16, 16) ;
+}

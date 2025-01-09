@@ -1,0 +1,32 @@
+p{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+del {
+    color:rgb(39, 39, 201);
+    font-size: 2em;
+    vertical-align: -0.7em;
+}
+
+ins {
+    color: rgb(51, 225, 51);
+    vertical-align: 0.3em;
+}
+
+#mayor {
+    font-size:x-large;    
+}
+
+.textbaja {
+    vertical-align: sub;
+}
+
+.maspeque {
+    font-size: small;
+    vertical-align: 0.1em;
+}
+
+.maspeque1 {
+    font-size: small;
+    vertical-align: super;
+}
