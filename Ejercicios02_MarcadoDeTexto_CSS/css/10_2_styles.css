@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Rusland';
+    src: url('../fuentes/Ruslan_Display/RuslanDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fuentes/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Delafield';
+    src: url('../fuentes/Mrs_Saint_Delafield/MrsSaintDelafield-Regular.ttf') format('truetype');
+}
+
+body{
+    background-color: rgb(115, 207, 170);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(79, 177, 138);
+}
+
+.rusland {
+    font-family: 'Rusland';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}  
+
+#obras{
+    font-size: 0.7em;
+    font-style: italic;
+    width: 450px;
+    align-items: center;
+    line-height: 2em;
+}
+
+.citas{
+    line-height: 0.5em;
+}
+
+.libro{
+    text-decoration: underline;
+}
+
+.latin {
+    font-family: 'Delafield';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+.significado {
+    font-family: 'Raleway';
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    text-align: right;
+    font-style: italic;
+    font-size: 2em;
+    color: white;
+}
+
+.frase{
+    height: 0.1em;
+    color: white;
+}
+
+hr {
+    height: 0.3em;
+    color: darkolivegreen;
+}
